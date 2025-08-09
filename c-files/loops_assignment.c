@@ -111,6 +111,54 @@
 // }
 
 //question 6
-// 
+/*
+    Write a program (WAP) for the described scenario: 
+    Player-1 picks a number X and Player-2 has to guess that number within N tries. For each wrong guess by Player-2, the program prints “Wrong, N-1 Choice(s) Left!” If Player-2 at any time successfully guesses the number, the program prints “Right, Player-2 wins!” and terminates right away. Otherwise after the completion of N wrong tries, the program prints “Player-1 wins!” and halts.
+    (Hint: Use break/continue)
+*/
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int choice,tries;
+//     scanf("%d%d",&choice,&tries);
+//     for (int i = tries-1; i >= 0; i--) // customizing the loop as the requirement
+//     {
+//         int guess;scanf("%d",&guess);
+//         if(guess != choice){
+//             printf("Wrong, %d choice(s) Left!\n",i);
+//                 if(i == 0)
+//                     printf("Player-1 wins!");
+//         }
+//         else if(guess == choice){
+//             printf("Right, Player-2 wins\n");
+//             break;
+//         }
+//     }
+//     return 0;
+// }
+
+
+//Write a program (WAP) that will run and show keyboard inputs until the user types an ’A’ at the keyboard. 
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     char ch;
+//     int i=1;
+//     while (scanf("%c ",&ch))
+//     {
+//         if(ch=='A'){
+//             break;
+//         }
+//         else printf("input %d: %c\n",i,ch);
+//         i++;
+//     }
+//     return 0;
+// }
 
 

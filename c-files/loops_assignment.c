@@ -100,7 +100,7 @@
 //         }
 //     }
 //     else if(x<y){
-//         for (int  i = x; i <= y; i++)
+//         for (int i = x; i <= y; i++)
 //         {
 //             if(i==y) printf("Reached");
 //             else printf("%d ",i*i);
@@ -109,5 +109,8 @@
 //     }
 //     return 0;
 // }
+
+//question 6
+// 
 
 

@@ -140,7 +140,7 @@
 //     return 0;
 // }
 
-
+//question 7
 //Write a program (WAP) that will run and show keyboard inputs until the user types an ’A’ at the keyboard. 
 
 // #include<stdio.h>
@@ -160,5 +160,225 @@
 //     }
 //     return 0;
 // }
+
+
+//question 8
+//Write a program (WAP) that will reverse the digits of an input integer.
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int num;
+//     int digit;
+//     scanf("%d",&num);
+//     while (num!=0)
+//     {
+//         digit=num%10;
+//         num=num/10;
+//         printf("%d",digit);
+//     }
+//     return 0;
+// }
+
+
+//question 9
+//Write a program (WAP) that will find the grade of N students. For each student, it will take the marks of his/her the attendance (on 5 marks), assignment (on 10 marks), class test (on 15 marks), midterm (on 50 marks), term final (on 100 marks). Then based on the tables shown below, the program will output his grade.
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+    
+//     return 0;
+// }
+
+
+//question 10
+//Write a program (WAP) that will give the sum of first Nth terms for the following series.
+//1, -2, 3, -4, 5, -6, 7, -8, 9, -10, 11, -12, 13, -14, …….
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int n,sum=0; 
+//     scanf("%d",&n);
+//     for (int i = 1; i <= n; i++){
+//         if(i%2==0)
+//             sum-=i;
+//         else sum+=i;
+//     }
+//     printf("%d",sum);
+//     return 0;
+// }
+
+//question 11
+//Write a program (WAP) that will calculate the result for the first Nth terms of the following series.  [In that series sum, dot sign (.) means multiplication]
+// 1^2.2 + 2^2.3 + 3^2.4 + 4^2.5 + …….
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int n,next=2,sum=0;
+//     scanf("%d",&n);
+//     for(int i=1;i<=n;i++){
+//         sum+=(i*i)*next;
+//         next++;
+//     }
+//     printf("%d",sum);
+//     return 0;
+// }
+
+//qeusiton 12
+//Write a program (WAP) that will print Fibonacci series upto Nth terms.
+//1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, …….
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     int first=0,second=1,last;
+//     for(int i=1;i<=n;i++){
+//         printf("%d ",first);
+//         last=first+second;
+//         first=second;
+//         second=last;
+//     }
+//     return 0;
+// }
+
+
+//question 13
+//Write a program (WAP) that will print the factorial (N!) of a given number N. Please see the sample input output.
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int n,fac=1;
+//     scanf("%d",&n);
+//     for (int i = n; i > 0; i--)
+//         fac*=i;
+//     printf("%d",fac);
+//     return 0;
+// }
+
+
+//question 14
+
+
+//question 15
+//Write a program (WAP) that will find xy (x to the power y) where x, y are positive integers.
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int num,pow,result;
+//     scanf("%d%d",&num,&pow);
+//     for (int i = 0; i < pow; i++)
+//         result=num*num;
+//     printf("%d",result);
+//     return 0;
+// }
+
+
+
+
+
+//question 16
+//WAP that will find the GCD (greatest common divisor) and LCM (least common multiple) of two positive integers.
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int num1,num2,temp;
+//     scanf("%d%d",&num1,&num2);
+//     while(num2!=0){
+//         temp=num1%num2;
+//         num1=num2;
+//         num2=temp;
+//     }
+//     printf("%d",num1);
+//     return 0;
+// }
+
+
+//question 17
+//WAP that will determine whether a number is prime or not.
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int num;
+//     scanf("%d",&num);
+//     int flag =0;
+//     for (int i = 2; i < num; i++)
+//     {
+//         if(num%i==0){
+//             flag =1;
+//             break;
+//         }
+//         else flag =0;
+//     }
+//     if(flag==0) printf("Prime");
+//     else printf("not prime");
+//     return 0;
+// }
+
+//question 18
+//WAP that will determine whether an integer is palindrome number or not.
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int num,digits,rev_dig;
+//     scanf("%d",&num);
+//     for (int i = 0; i < num; i++)
+//     {
+//         rev_dig=num%10;
+//         num=num/10;
+        
+
+//     }
+    
+//     return 0;
+// }
+
+
+
+//basic pattern
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+#include<stdlib.h>
+int main(){
+    int row,col;
+    scanf("%d %d",&row,&col);
+    for (int i = 0; i < row; i++)
+    {
+        for (int J = col; J >0; J--)
+            printf("* ");
+        col--;
+        printf("\n");
+    }
+    return 0;
+}
+
+
 
 

@@ -102,7 +102,7 @@
 //     else if(x<y){
 //         for (int i = x; i <= y; i++)
 //         {
-//             if(i==y) printf("Reached");
+//             if(i==y) printf("Reached"); //brackets deleted to avoid complexity while understanding the code.
 //             else printf("%d ",i*i);
 //         }
     

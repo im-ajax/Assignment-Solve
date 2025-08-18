@@ -276,35 +276,28 @@
 
 //question 14
 // Write a program (WAP) that will find nCr where n >= r; n and r are integers.
-// #include<stdio.h>
+//#include<stdio.h>
 // #include<math.h>
 // #include<string.h>
 // #include<stdlib.h>
 // int main(){
 //     int n,r;
 //     scanf("%d%d",&n,&r);
-
-
 //     int res=1; // n! er value ber kortesi
 //     for (int i = n; i >= 1; i--){
 //         res=res*i;
 //     }
-
 //     long long res2=1; // r! er value ber kortesi
 //     for (int i = r; i >= 1; i--){
 //         res2*=i;
 //     }
-
 //     // (n-r)! er value ber kortesi
 //     int third_factorial= (n-r);
 //     long long res3=1;
-//     for (int i = third_factorial; i >=1 ; i--)
-//     {
+//     for (int i = third_factorial; i >=1 ; i--){
 //         res3*=i;
 //     }
-    
 //     long long total= res / (res2 * res3);
-
 //     printf("total : %lld",total);
 //     return 0;
 // }

@@ -3,8 +3,14 @@
 // #include<string.h>
 // #include<stdlib.h>
 // int main(){
-//     int n;
-//     scanf("%d",&n);
-//     for(int i=1;i<=n;i++)
+//     int row,col;
+//     scanf("%d %d",&row,&col);
+//     for (int i = 0; i < row; i++)
+//     {
+//         for (int J = col; J >0; J--)
+//             printf("* ");
+//         col--;
+//         printf("\n");
+//     }
 //     return 0;
 // }

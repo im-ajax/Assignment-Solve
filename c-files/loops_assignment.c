@@ -1,6 +1,7 @@
 //loops assignments here.
 
 
+
 //question 1
 //Write a program (WAP) that will print following series upto Nth terms.
 //1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, …….
@@ -22,6 +23,7 @@
 //question 2
 // Write a program (WAP) that will print following series upto Nth terms.
 //1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31 …….
+
 // #include<stdio.h>
 // #include<math.h>
 // #include<string.h>
@@ -33,6 +35,7 @@
 //         printf("%d",num);
 //         num+=2;
 //     }
+    
 //     return 0;  
 // }
 
@@ -352,32 +355,41 @@
 //     {
 //         rev_dig=num%10;
 //         num=num/10;
-        
-
 //     }
     
 //     return 0;
 // }
 
+//question 10
+//WAP that will calculate following mathematical function for the input of x. Use only the series to solve the problem.
+// sinx = x-x^3/3! + x^5/5! + x^7/7! + ....... INFITINTY
 
 
-//basic pattern
+
+//question 20
+// Write a program that takes an integer number n as input and find out the sum of the following series up to n terms.
+// 1 + 12 + 123 + 1234 + …….
+
 #include<stdio.h>
 #include<math.h>
 #include<string.h>
 #include<stdlib.h>
 int main(){
-    int row,col;
-    scanf("%d %d",&row,&col);
-    for (int i = 0; i < row; i++)
-    {
-        for (int J = col; J >0; J--)
-            printf("* ");
-        col--;
-        printf("\n");
+    int n,series=1,sum=0;
+    scanf("%d",&n);
+    for (int i = 1; i <= n; i++){
+        if(i==1)
+            sum+=series;
+        else{
+            series*=10;
+            
+        }
+        
     }
+    
     return 0;
 }
+
 
 
 

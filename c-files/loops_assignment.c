@@ -387,7 +387,7 @@
 
 //question 10
 //WAP that will calculate following mathematical function for the input of x. Use only the series to solve the problem.
-// sinx = x-x^3/3! + x^5/5! + x^7/7! + ....... INFITINTY
+// sinx = x-x^3/3! + x^5/5! + x^7/7! + ....... INFINITY
 
 
 
@@ -409,7 +409,6 @@ int main(){
             series*=10;
             
         }
-        
     }
     
     return 0;

@@ -395,25 +395,56 @@
 // Write a program that takes an integer number n as input and find out the sum of the following series up to n terms.
 // 1 + 12 + 123 + 1234 + …….
 
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int size,finder,flag=0;;
+//     printf("enter the size of array\n");
+//     scanf("%d",&size);
+//     int arr[size];
+//     printf("Enter the elements of the array\n");
+//     for (int i = 0; i < size; i++)
+//         scanf("%d",&arr[i]);
+//     printf("Enter the value you want to search\n");
+//     scanf("%d",&finder);
+//     for(int i=0;i<size;i++){
+//         if(arr[i]==finder){
+//             flag=1;
+//             break;
+//         }
+//     }
+//     flag==1? printf("Found\n") : printf("Not Found\n");
+//     return 0;
+//}
+
+
+
 #include<stdio.h>
 #include<math.h>
 #include<string.h>
 #include<stdlib.h>
 int main(){
-    int n,series=1,sum=0;
-    scanf("%d",&n);
-    for (int i = 1; i <= n; i++){
-        if(i==1)
-            sum+=series;
-        else{
-            series*=10;
-            
-        }
+    int size,count=0;char finder;
+    printf("enter the size of array\n");
+    scanf("%d",&size);
+
+    char alphabets[size];
+
+    printf("Enter the elements of the array\n");
+        scanf("%s",alphabets);
+
+
+    printf("Enter the value you want to search\n");
+    scanf("%c",&finder);
+    for(int i=0;i<size;i++){
+        if(alphabets[i]=='A'||alphabets[i]=='E'||alphabets[i]=='I'||alphabets[i]=='O'||alphabets[i]=='U'||alphabets[i]=='a'||alphabets[i]=='e'||alphabets[i]=='i'||alphabets[i]=='o'||alphabets[i]=='u')
+            count++;
     }
-    
+    printf("%d",count);
     return 0;
 }
-
 
 
 

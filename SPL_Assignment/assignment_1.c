@@ -24,8 +24,12 @@
 Inside First IF
 a=-2 and b =-1
 Inside ELSE IF
-
 */
+
+
+
+
+
 
 // b.c
 // if (a * b == 0) {
@@ -45,6 +49,9 @@ Inside ELSE IF
 // else {
 //     printf("Inside default\n");
 // }
+
+
+
 
 
 
@@ -75,6 +82,10 @@ output will be
 6 2 1
 9 2 2
 */
+
+
+
+
 
 
 //question 2
@@ -108,9 +119,11 @@ i=1, j=15
 i=1, j=17
 */
 
+
+
+
 // question 3
 // a)
-
 #include<stdio.h>
 #include<math.h>
 #include<string.h>

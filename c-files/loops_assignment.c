@@ -421,31 +421,6 @@
 
 
 
-#include<stdio.h>
-#include<math.h>
-#include<string.h>
-#include<stdlib.h>
-int main(){
-    int size,count=0;char finder;
-    printf("enter the size of array\n");
-    scanf("%d",&size);
-
-    char alphabets[size];
-
-    printf("Enter the elements of the array\n");
-        scanf("%s",alphabets);
-
-
-    printf("Enter the value you want to search\n");
-    scanf("%c",&finder);
-    for(int i=0;i<size;i++){
-        if(alphabets[i]=='A'||alphabets[i]=='E'||alphabets[i]=='I'||alphabets[i]=='O'||alphabets[i]=='U'||alphabets[i]=='a'||alphabets[i]=='e'||alphabets[i]=='i'||alphabets[i]=='o'||alphabets[i]=='u')
-            count++;
-    }
-    printf("%d",count);
-    return 0;
-}
-
 
 
 

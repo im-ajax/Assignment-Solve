@@ -1,5 +1,5 @@
 //loops assignments here.
-
+// 3 5 6 9 10 12 13 14 15 16 18 19 20
 
 
 //question 1

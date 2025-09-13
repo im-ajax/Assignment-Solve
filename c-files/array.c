@@ -1,3 +1,5 @@
+// 6 7 8 9 10
+
 //question 1
 //WAP that will take n integer numbers into an array, and then print all the integers into reverse order (from the last valid index to index 0).
 

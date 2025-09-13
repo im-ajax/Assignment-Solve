@@ -124,30 +124,29 @@ i=1, j=17
 
 // question 3
 // a)
-#include<stdio.h>
-#include<math.h>
-#include<string.h>
-#include<stdlib.h>
-int main(){
-    int arr[20],evencnt=0,oddcnt=0,sum=0;
-    float avg;
-    for(int i=0;i<20;i++)
-        scanf("%d",&arr[i]);
-    for(int i=0;i<20;i++){
-        if(arr[i]%2==0)
-            evencnt++;
-        else oddcnt++;
-        sum+=arr[i];
-    }
-    avg=sum/20;
-    printf("Evens: %d\nOdds: %d\nAverage: %f\n",evencnt,oddcnt,avg);
-    return 0;
-}
+// #include<stdio.h>
+// int main(){
+//     int arr[20],evencnt=0,oddcnt=0,sum=0;
+//     float avg;
+//     for(int i=0;i<20;i++){
+//         scanf("%d",&arr[i]);
+//         if(arr[i]%2==0)
+//             evencnt++;
+//         else oddcnt++;
+//         sum+=arr[i];
+//     }
+//     avg=sum/20;
+//     printf("Evens: %d\nOdds: %d\nAverage: %f\n",evencnt,oddcnt,avg);
+//     return 0;
+// }
 /*
-outputs
+outputs 
 Evens: 0
 Odds: 20
 Average: 1.000000
 
 */
+
+
+
 

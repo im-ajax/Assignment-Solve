@@ -122,3 +122,28 @@
 
 
 
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+#include<stdlib.h>
+int main(){
+    int n=10;
+    for (int i = n; i <= 0; i--){
+        if(i==0) printf("Blasting off!\n");
+        else printf("%d",i);
+    }
+    return 0;
+}
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// int main(){
+//     int n=10;
+//     for (int i = n; i < 0; i--){ 
+//         printf("%d",i);
+//     }
+//     printf("Blasting off!\n");
+//     return 0;
+// }

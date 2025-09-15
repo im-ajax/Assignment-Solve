@@ -1,9 +1,6 @@
 // question 3
 
 // #include<stdio.h>
-// #include<math.h>
-// #include<string.h>
-// #include<stdlib.h>
 // int main(){
 //     int n;
 //     scanf("%d",&n);
@@ -19,9 +16,6 @@
 // question 5
 
 // #include<stdio.h>
-// #include<math.h>
-// #include<string.h>
-// #include<stdlib.h>
 // int main(){
 //     int x,y;
 //     scanf("%d %d",&x,&y);
@@ -47,13 +41,9 @@
 // }
 
 
-
 // question 6
 
 // #include<stdio.h>
-// #include<math.h>
-// #include<string.h>
-// #include<stdlib.h>
 // int main(){
 //     int choice,tries;
 //     scanf("%d%d",&choice,&tries);
@@ -135,9 +125,6 @@
 // qeusiton 12
 
 // #include<stdio.h>
-// #include<math.h>
-// #include<string.h>
-// #include<stdlib.h>
 // int main(){
 //     int n;
 //     scanf("%d",&n);
@@ -155,9 +142,6 @@
 // question 13
 
 // #include<stdio.h>
-// #include<math.h>
-// #include<string.h>
-// #include<stdlib.h>
 // int main(){
 //     int n,fac=1;
 //     scanf("%d",&n);
@@ -171,9 +155,6 @@
 // question 14
 
 // #include<stdio.h>
-// #include<math.h>
-// #include<string.h>
-// #include<stdlib.h>
 // int main(){
 //     int n,r;
 //     scanf("%d%d",&n,&r);
@@ -185,7 +166,6 @@
 //     for (int i = r; i >= 1; i--){
 //         res2*=i;
 //     }
-//     // (n-r)! er value ber kortesi
 //     int third_factorial= (n-r);
 //     long long res3=1;
 //     for (int i = third_factorial; i >=1 ; i--){
@@ -198,10 +178,8 @@
 
 
 // question 15
+
 // #include<stdio.h>
-// #include<math.h>
-// #include<string.h>
-// #include<stdlib.h>
 // int main(){
 //     int num,pow,result;
 //     scanf("%d%d",&num,&pow);
@@ -216,9 +194,6 @@
 // question 16
 
 // #include<stdio.h>
-// #include<math.h>
-// #include<string.h>
-// #include<stdlib.h>
 // int main(){
 //     int num1,num2,temp;
 //     scanf("%d%d",&num1,&num2);
@@ -251,27 +226,16 @@
 
 // question 20
 
-// #include<stdio.h>
-// #include<math.h>
-// #include<string.h>
-// #include<stdlib.h>
-// int main(){
-//     int size,finder,flag=0;;
-//     printf("enter the size of array\n");
-//     scanf("%d",&size);
-//     int arr[size];
-    
-//     printf("Enter the elements of the array\n");
-//     for (int i = 0; i < size; i++)
-//         scanf("%d",&arr[i]);
-//     printf("Enter the value you want to search\n");
-//     scanf("%d",&finder);
-//     for(int i=0;i<size;i++){
-//         if(arr[i]==finder){
-//             flag=1;
-//             break;
-//         }
+// #include <stdio.h>
+// int main() {
+//     int n, i;
+//     long long term = 0, sum = 0;
+//     scanf("%d", &n);
+//     for (i = 1; i <= n; i++) {
+//         term = term * 10 + i;
+//         sum = sum + term;
 //     }
-//     flag==1? printf("Found\n") : printf("Not Found\n");
+//     printf("%lld\n", sum);
 //     return 0;
 // }
+

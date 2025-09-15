@@ -402,9 +402,6 @@
 // question 18
 // WAP that will determine whether an integer is palindrome number or not.
 //  #include<stdio.h>
-//  #include<math.h>
-//  #include<string.h>
-//  #include<stdlib.h>
 //  int main(){
 //      int num,digits,rev_dig;
 //      scanf("%d",&num);
@@ -420,46 +417,37 @@
 // question 19
 // WAP that will calculate following mathematical function for the input of x. Use only the series to solve the problem.
 //  sinx = x-x^3/3! + x^5/5! + x^7/7! + ....... INFINITY
-#include <stdio.h>
-int main()
-{
-    double x, term, sum;
-    int i;
-    scanf("%lf", &x);
-    term = x;
-    sum = x;
-    for (i = 1; i <= 15; i++){
-        term = term * (-1.0) * x * x / ((2 * i) * (2 * i + 1));
-        sum = sum + term;
-    }
-    printf("%.3f\n", sum);
-    return 0;
-}
+// #include <stdio.h>
+//#include<math.h>
+// int main()
+// {
+//     double x, term, sum;
+//     int i;
+//     scanf("%lf", &x);
+//     term = x;
+//     sum = x;
+//     for (i = 1; i <= 15; i++){
+//         term = term * (-1.0) * x * x / ((2 * i) * (2 * i + 1));
+//         sum = sum + term;
+//     }
+//     printf("%.3f\n", sum);
+//     return 0;
+// }
 
 // question 20
 //  Write a program that takes an integer number n as input and find out the sum of the following series up to n terms.
 //  1 + 12 + 123 + 1234 + …….
 
-// #include<stdio.h>
-// #include<math.h>
-// #include<string.h>
-// #include<stdlib.h>
-// int main(){
-//     int size,finder,flag=0;;
-//     printf("enter the size of array\n");
-//     scanf("%d",&size);
-//     int arr[size];
-//     printf("Enter the elements of the array\n");
-//     for (int i = 0; i < size; i++)
-//         scanf("%d",&arr[i]);
-//     printf("Enter the value you want to search\n");
-//     scanf("%d",&finder);
-//     for(int i=0;i<size;i++){
-//         if(arr[i]==finder){
-//             flag=1;
-//             break;
-//         }
+// #include <stdio.h>
+// int main() {
+//     int n, i;
+//     long long term = 0, sum = 0;
+//     scanf("%d", &n);
+//     for (i = 1; i <= n; i++) {
+//         term = term * 10 + i;
+//         sum = sum + term;
 //     }
-//     flag==1? printf("Found\n") : printf("Not Found\n");
+//     printf("%lld\n", sum);
 //     return 0;
-//}
+// }
+

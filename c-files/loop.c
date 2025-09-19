@@ -45,14 +45,15 @@
 
 // #include<stdio.h>
 // int main(){
-//     int choice,tries;
-//     scanf("%d%d",&choice,&tries);
+//     int choice,tries=3;
+//     scanf("%d",&choice);
 //     for (int i = tries-1; i >= 0; i--) // customizing the loop as the requirement
 //     {
-//         int guess;scanf("%d",&guess);
+//         int guess;
+//         scanf("%d",&guess);
 //         if(guess != choice){
 //             printf("Wrong, %d choice(s) Left!\n",i);
-//                 if(i == 0)
+//                 if(i == 1)
 //                     printf("Player-1 wins!");
 //         }
 //         else if(guess == choice){
@@ -238,4 +239,72 @@
 //     printf("%lld\n", sum);
 //     return 0;
 // }
+
+
+
+
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// #include<stdbool.h>
+// int main(){
+//     int n,flag = 0;
+//     scanf("%d",&n);
+//     int arr[n];
+//     for(int i=0;i<n;i++)
+//         scanf("%d",&arr[i]);
+
+//     for(int i=0;i<n-1;i++){
+//         for(int j=i+1;j<n;j++){
+//             if(arr[i]==arr[j]){
+//                 flag=1;
+//                 break;
+//             }
+//             if(flag==1) break;
+//         }
+//     }
+//     if(flag==1) printf("duplicate found\n");
+//     else printf("Not found");
+    
+//     return 0;
+// }
+
+
+
+
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+#include<stdlib.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    if(n<4 || n%2==0) printf("Invalid Input\n");
+    else {
+        for(int i=1;i<=n;i++){
+            if(i == n/2+1)    
+                for(int j=1;j<=n;j++){
+                    if(i==j && i+j == n+1) 
+                        printf("X");
+                    else printf(" ");
+                }
+            else {
+                for(int j=1;j<=n;j++){
+                    if(i==j)
+                        printf("\\");
+                    
+                    else if(i+j == n+1)
+                        printf("/");
+                    
+                    else printf(" ");
+                }
+            }
+            printf("\n");
+        }
+    }
+    return 0;
+}
+
 

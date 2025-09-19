@@ -38,6 +38,46 @@
 //     return 0;
 // }
 
+
+//question 3
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// #include<stdbool.h>
+// int main(){
+//     int n,sum=0;
+//     scanf("%d",&n);
+//     int a[n];
+//     for(int i=1;i<=n;i++)
+//         scanf("%d",&a[i]);
+//     for(int i=1;i<=n;i++){
+//         if(i%2==0){
+//             sum+=a[i];
+//         }
+//     }
+//     printf("%d",sum);
+//     return 0;
+// }
+
+//question 4
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// #include<stdbool.h>
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     int a[n];
+//     for(int i=0;i<n;i++)
+//         scanf("%d",&a[i]);
+    
+//     return 0;
+// }
+
+ 
 //question 6
 // #include<stdio.h>
 // #include<math.h>
@@ -59,4 +99,8 @@
 //     }
 //     return 0;
 // }
+
+
+
+
 

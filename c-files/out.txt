@@ -1,4 +1,3 @@
-Maximum: 5
-Minimum: 1
-summation: 15
-given array: 1 2 3 4 5 
+Name: sunny
+Id: 14
+CGPA: 4.35 

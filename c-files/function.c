@@ -417,3 +417,81 @@ use their result to calculate area of a circle.
 
 
 
+/*
+2
+sunny housling 88
+shadhin shell 45
+*/
+
+
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// #include<stdbool.h>
+// int factorial(int x,int y,int z){
+//     int res=1,res2=1,res3=1;
+//     for(int i=x;i>=1;i--)
+//         res*=i;
+//     for(int i=y;i>=1;i--)
+//         res2*=i;
+//     for(int i=z;i>=1;i--)
+//         res3*=i;
+//     summation(res,res2,res3);
+// }
+// int summation(int a,int b,int c){
+//     int sum=0;
+//     sum=sum+a+b+c;
+//     printf("%d",sum);
+// }
+// int main(){
+//     int x,y,z;
+//     scanf("%d%d%d",&x,&y,&z);
+//     factorial(x,y,z);
+//     return 0;
+// }
+
+//some basic codes
+// #include<stdio.h>
+// #include<math.h>
+// #include<string.h>
+// #include<stdlib.h>
+// #include<stdbool.h>
+// int x;
+// void ReversedNumber(int n);
+// void Difference(int a,int b);
+// void IsPalindrome(int num);
+// int main(){
+//     scanf("%d",&x);
+//     ReversedNumber(x);
+//     return 0;
+// }
+// void ReversedNumber(int n){
+//     int rev_digit=0;
+//     while(n!=0){
+//         int new_digit=n%10;
+//         n/=10;
+//         rev_digit=(rev_digit*10)+new_digit;
+//     }
+//     printf("Reversed Number: %d\n",rev_digit);
+//     Difference(x,rev_digit);
+// }
+// void Difference(int a,int b){
+//     int diff=abs(a-b);
+//     printf("Difference: %d\n",diff);
+//     IsPalindrome(diff);
+// }
+// void IsPalindrome(int num){
+//     int pal_digit=0;
+//     while(num!=0){
+//         int new_digit=num%10;
+//         num/=10;
+//         pal_digit=(pal_digit*10)+new_digit;
+//     }
+//     printf("Is the Number is palindrome? ");
+//     if(num==pal_digit) printf("Yes");
+//     else printf("No");
+// }
+
+
+

@@ -375,6 +375,31 @@
 //      return 0;
 //  }
 
+// for lcm 
+// #include<stdio.h>
+
+// int main() {
+//     int num1, num2, a, b, temp, gcd, lcm;
+
+//     scanf("%d%d", &num1, &num2);
+
+//     a = num1;
+//     b = num2;
+
+//     while(num2 != 0) {
+//         temp = num1 % num2;
+//         num1 = num2;
+//         num2 = temp;
+//     }
+
+//     gcd = num1;
+//     lcm = (a / gcd) * b;
+
+//     printf("LCM = %d", lcm);
+
+//     return 0;
+// }
+
 // question 17
 // WAP that will determine whether a number is prime or not.
 

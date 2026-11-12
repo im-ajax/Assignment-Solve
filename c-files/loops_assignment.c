@@ -426,17 +426,20 @@
 
 // question 18
 // WAP that will determine whether an integer is palindrome number or not.
-//  #include<stdio.h>
-//  int main(){
-//      int num,digits,rev_dig;
-//      scanf("%d",&num);
-//      for (int i = 0; i < num; i++)
-//      {
-//          rev_dig=num%10;
-//          num=num/10;
-//      }
-
-//     return 0;
+//  made by Jerin Tasnim Mohona
+// #include <stdio.h>
+// int main (){
+//    int n, X, rev =0;
+//    scanf("%d", &n);
+//    X=n;
+//    while (n != 0){  
+//        rev = rev * 10 + n % 10;
+//        n /= 10;
+//    }
+//    if (X == rev)
+//       printf("Palindrom\n");
+//    else printf ("Not Palindrome\n");
+//    return 0; 
 // }
 
 // question 19
